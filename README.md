@@ -12,7 +12,7 @@ Please feel free to fork this repo, add to it then submit pull requests, I would
 
 ## Installation
 
-To install the Laravel live templates all you need to do is copy `Laravel.xml` file to your IntelliJ/PhpStorm templates directory as defined below:
+To install the Laravel live templates all you need to do is copy `Laravel.xml` and `Envoy.xml` files to your IntelliJ/PhpStorm templates directory as defined below:
 
 ### IntelliJ
 
@@ -32,14 +32,25 @@ To install the Laravel live templates all you need to do is copy `Laravel.xml` f
 
 All templates are set up to use the `tab` key to fire them. Simply type the codes below and press tab to expand them. Some the templates have configured insertion points, simply press `tab` to move between them.
 
-### Caching
-- `c::p` Cache::put() **new*
+### Laravel.xml
+The following live templates are in the `Laravel.xml` file.
 
-### Hashing
-- `h::c` Hash::check() **new*
-- `h::m` Hash::make() **new*
+#### Caching
 
-### Routes
+- `c::a` Cache::add()
+- `c::d` Cache::decrement()
+- `c::fe` Cache::forever()
+- `c::fg` Cache::forget()
+- `c::g` Cache::get()
+- `c::h` Cache::has()
+- `c::i` Cache::increment()
+- `c::p` Cache::put()
+
+#### Hashing
+- `h::c` Hash::check()
+- `h::m` Hash::make()
+
+#### Routes
 - `r::a` Route::any()
 - `r::b` Route::bind()
 - `r::g` Route::get()
@@ -47,10 +58,18 @@ All templates are set up to use the `tab` key to fire them. Simply type the code
 - `r::p` Route::post()
 - `r::r` Route::resource()
 
-### Views
+#### Views
 - `v::m` View::make()
+
+
+### Envoy.xml
+The Laravel Envoy live templates are in the `Envoy.xml` file.
+
+- `@a` After
+- `@h` HipChat
+- `@m` Macro
+- `@s` Servers
+- `@t` Task
 
 ## Suggestions/Requests
 As previously mentioned feel free to fork, update and submit pull requests. If you would like me to add particular expansions drop me a tweet [@johnblackmore](http://twitter.com/johnblackmore)
-
-*Coming Soon - Blade template shortcuts?*
